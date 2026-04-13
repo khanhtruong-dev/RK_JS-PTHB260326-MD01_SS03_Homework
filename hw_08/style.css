@@ -1,0 +1,51 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    padding: 40px;
+}
+
+/* Box */
+.quote-box {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+
+    border-left: 5px solid #3498db;
+    border-radius: 10px;
+}
+
+/* Quote text */
+.quote {
+    font-style: italic;
+    color: #555;
+    position: relative;
+}
+
+.quote::before {
+    content: "“";
+    font-size: 40px;
+    color: #ccc;
+    margin-right: 5px;
+}
+
+.quote::after {
+    content: "”";
+    font-size: 40px;
+    color: #ccc;
+    margin-left: 5px;
+}
+
+/* Drop cap */
+.quote::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #3498db;
+}
+
+/* Author */
+.author {
+    text-align: right;
+    margin-top: 15px;
+    color: #888;
+}

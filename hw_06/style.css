@@ -1,0 +1,29 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+    padding: 40px;
+}
+
+/* Banner */
+.banner {
+    width: 700px;
+    padding: 20px;
+    margin: auto;
+
+    border: 2px solid #e67e22;
+    border-radius: 15px;
+
+    background: #f6e3c5 url("https://pngimg.com/uploads/coffee_beans/coffee_beans_PNG9298.png") no-repeat top right;
+}
+
+/* Title */
+.banner h2 {
+    color: #d35400;
+    text-align: justify;
+}
+
+/* Text */
+.banner p {
+    color: #333;
+    line-height: 1.6;
+}
